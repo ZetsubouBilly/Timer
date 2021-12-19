@@ -1,0 +1,72 @@
+ /* @keyframes flashingEffect{
+         0%{
+             opacity:0;
+         }
+        100%{
+             opacity:1;
+        }
+    
+     }
+    
+    
+
+    .styles {
+        background-color: green;
+        opacity:1;
+        padding: 12px 15px;
+        border: 0;
+        border-radius: 5px;
+        /* transition-property: opacity; */
+        /* transition-duration: 1s;
+        
+        /* transition: opacity 3s steps(1000, start); */
+        /* animation: flashingEffect infinite 1s alternate;  */
+        
+    /* }
+    .buttonY {
+        background-color: yellow;
+        opacity:1;
+        padding: 12px 15px;
+        border: 0;
+        border-radius: 5px;
+        transition-property: opacity;
+        transition-duration: 1s;
+        
+        transition: opacity 3s steps(1000, start);
+        animation-name: flashingEffect;
+        animation-iteration-count: infinite;
+    }
+    .buttonR {
+        background-color: red;
+        opacity:1;
+        padding: 12px 15px;
+        border: 0;
+        border-radius: 5px;
+        transition-property: opacity;
+        transition-duration: 1s;
+        
+        transition: opacity 3s steps(1000, start);
+        animation-name: flashingEffect;
+        animation-iteration-count: infinite;
+    } */ 
+
+
+    .indicator {
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        border: 1px solid;
+
+
+    }
+
+    .indicator.active {
+        background-color: green;
+
+    }
+    .indicator.pause {
+        background-color: yellow;
+    } 
+    .indicator.stop {
+        background-color: red;
+    }
